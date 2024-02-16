@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Generate Portal Login</title>
+    <meta name="author" content="Anupama Bhatta">
+    <meta name="description" content="Portal Login">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/wesleyan-favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="parent-container">
+
+        <noscript>
+            <p>
+                This web page uses JavaScript. For proper results,
+                you must use a web browser with JavaScript enabled.
+            </p>
+        </noscript>
+        <header>
+            <img class="logo" src="images/Wesleyan-College-Logo-Round.png" alt="Logo of Wesleyan College">
+            <img class="first-for-women-banner" src="images/Wesleyan-College-Banner.png"
+                alt="Banner of Wesleyan College">
+            <h1 class="header">wesportal login <span>generator</span></h1>
+            <hr>
+        </header>
+
+        <div class="content-container">
+            <form name="myForm" id="myForm">
+                <div class="reset-button-container">
+                    <input type="button" class="reset-form" name="btnClearForm" id="btnClearForm" value="Clear Form"
+                        onclick="cleanForm(this.form)">
+                </div>
+                <div class="input-group">
+                    <label for="txtFirstName">First Name:</label>
+                    <input type="text" id="txtFirstName" placeholder="First Name" required
+                        oninput="validate(this, 'errorFirstName')">
+                    <label id="errorFirstName" class="error invisible">First Name is required.</label>
+                </div>
+
+                <div class="input-group">
+                    <label for="txtMiddleName">Middle Name:</label>
+                    <input type="text" id="txtMiddleName" placeholder="Middle Name">
+                </div>
+
+                <div class="input-group">
+                    <label for="txtLastName">Last Name:</label>
+                    <input type="text" id="txtLastName" placeholder="Last Name" required
+                        oninput="validate(this, 'errorLastName')">
+                    <label id="errorLastName" class="error invisible">Last Name is required.</label>
+                </div>
+
+                <div class="input-group">
+                    <label for="txtDob">Birth Date:</label>
+                    <input type="date" id="txtDob" required onchange="validate(this, 'errorDob')">
+                    <label id="errorDob" class="error invisible">Birth Date is required.</label>
+                </div>
+
+                <div class="generate-button">
+                    <input type="button" name="btnSubmit" id="btnSubmit" value="Generate Login"
+                        onclick="generateLogin(this.form)">
+                </div>
+                <output form="myForm" id="output">
+                    <div class="output-container">
+                        <div class="output-sub-container">
+                            <h2>Your Portal Login</h2>
+                            <div>
+                                <label>Login:</label><span id="username"></span>
+                            </div>
+                            <div>
+                                <label>Password:</label><span id="password"></span>
+                            </div>
+                        </div>
+                    </div>
+                </output>
+            </form>
+        </div>
+        <script src="functions.js" async defer></script>
+    </div>
+</body>
+
+</html>
