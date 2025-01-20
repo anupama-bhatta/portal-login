@@ -15,7 +15,8 @@ A web application designed to generate unique portal login credentials based on 
 ## **Getting Started**
 
 Simply click on the GitHub Pages link to access the application:
-[Generate Portal Login](https://anupamabhatta.github.io/portal-login/).
+[Generate Portal Login](https://anupamabhatta.github.io/portal-login/)
+
 Alternatively, open `index.html` in any web browser—no installation required.
 
 ## **Technologies Used**
