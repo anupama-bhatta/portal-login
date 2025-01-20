@@ -3,17 +3,20 @@
 
 ## **Description**
 
-A web app to generate portal login credentials by entering a first name, last name, and birth date.
+A web application designed to generate unique portal login credentials based on user input. This tool is specifically tailored for Wesleyan College to simplify and standardize portal login creation for its users.
 
 ## **Features**
 
-- **Input Form**: Validates required fields (first name, last name, and birth date).
-- **Generate Credentials**: Creates a unique username and password.
-- **Output Display**: Shows the generated credentials below the form.
+- **Input Form**: Enter first name, middle name (optional), last name, and birth date.
+- **Validation**: Ensures required fields (e.g., first name, last name, birth date) are filled.
+- **Login Generation**: Click **"Generate Login"** to display the portal username and password.
+- **Output Display**: Generated credentials are shown below the form.
 
 ## **Getting Started**
 
-Simply open `index.html` in any web browser—no installation needed.
+Simply click on the GitHub Pages link to access the application:
+[Generate Portal Login](https://anupamabhatta.github.io/portal-login/).
+Alternatively, open `index.html` in any web browser—no installation required.
 
 ## **Technologies Used**
 
@@ -23,16 +26,17 @@ Simply open `index.html` in any web browser—no installation needed.
 
 ## **File Structure**
 
-- `index.html`: Main interface
-- `styles.css`: Page styling
-- `functions.js`: Login generation logic
+- `index.html`: Main interface for login generation.
+- `styles.css`: CSS for styling the user interface.
+- `functions.js`: JavaScript logic for generating login credentials.
 
 ## **Usage**
 
-1. Enter your first name, last name, and birth date (middle name optional).
-2. Click the **"Generate Login"** button.
-3. View your unique username and password.
+1. Input your first name, middle name (optional), last name, and birth date.
+2. Ensure all required fields are filled correctly.
+3. Click **"Generate Login"** to create your credentials.
+4. View your unique portal username and password below the form.
 
 ## **Contributing**
 
-Contributions are welcome! Open an issue or submit a pull request for any improvements or fixes.
+Contributions are welcome! If you have suggestions or find issues, feel free to open an issue or submit a pull request.
