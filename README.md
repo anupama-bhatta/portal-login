@@ -1,39 +1,38 @@
-# Generate Portal Login
 
-## Description
+# **Generate Portal Login**
 
-The Generate Portal Login project is a web application designed to help users generate login credentials for a portal. Users can input their first name, middle name (optional), last name, and birth date to generate a unique login username and password.
+## **Description**
 
-## Features
+A web app to generate portal login credentials by entering a first name, last name, and birth date.
 
-- **Input Form:** Users can input their first name, middle name (optional), last name, and birth date.
-- **Validation:** The form includes validation for required fields such as first name, last name, and birth date.
-- **Generate Login:** After inputting their information, users can click the "Generate Login" button to generate their portal login credentials.
-- **Output Display:** The generated login username and password are displayed in an output section below the form.
+## **Features**
 
-## Getting Started
+- **Input Form**: Validates required fields (first name, last name, and birth date).
+- **Generate Credentials**: Creates a unique username and password.
+- **Output Display**: Shows the generated credentials below the form.
 
-To use the Generate Portal Login application, simply open the HTML file in a web browser. No additional setup or installation is required.
+## **Getting Started**
 
-## Technologies Used
+Simply open `index.html` in any web browser—no installation needed.
 
-- HTML
-- CSS
-- JavaScript
+## **Technologies Used**
 
-## File Structure
+- **HTML**: Structure
+- **CSS**: Styling
+- **JavaScript**: Functionality
 
-- `index.html`: Main HTML file containing the portal login interface.
-- `styles.css`: CSS file for styling the interface.
-- `functions.js`: JavaScript file containing functions for generating login credentials and handling user interactions.
+## **File Structure**
 
-## Usage
+- `index.html`: Main interface
+- `styles.css`: Page styling
+- `functions.js`: Login generation logic
 
-1. Enter your first name, middle name (optional), last name, and birth date into the input fields.
-2. Ensure all required fields are filled out correctly.
-3. Click the "Generate Login" button to generate your portal login credentials.
-4. Your generated login username and password will be displayed below the form.
+## **Usage**
 
-## Contributing
+1. Enter your first name, last name, and birth date (middle name optional).
+2. Click the **"Generate Login"** button.
+3. View your unique username and password.
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+## **Contributing**
+
+Contributions are welcome! Open an issue or submit a pull request for any improvements or fixes.
