@@ -1,4 +1,3 @@
-
 # **Generate Portal Login**
 
 ## **Description**
@@ -27,9 +26,12 @@ Alternatively, open `index.html` in any web browser—no installation required.
 
 ## **File Structure**
 
-- `index.html`: Main interface for login generation.
-- `styles.css`: CSS for styling the user interface.
-- `functions.js`: JavaScript logic for generating login credentials.
+- `index.html`: Main interface for portal login generation
+- `styles.css`: CSS for styling the application
+- `functions.js`: JavaScript file containing logic for generating login credentials
+- `fonts/`: Directory containing font files used in the application
+- `images/`: Directory containing image assets
+- `.DS_Store`: macOS system file (can be ignored)
 
 ## **Usage**
 
