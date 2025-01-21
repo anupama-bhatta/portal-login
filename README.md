@@ -32,6 +32,7 @@ Alternatively, open `index.html` in any web browser—no installation required.
 - `fonts/`: Directory containing font files used in the application
 - `images/`: Directory containing image assets
 - `.DS_Store`: macOS system file (can be ignored)
+- `README.md`: Documentation file with project details and instructions.
 
 ## **Usage**
 
